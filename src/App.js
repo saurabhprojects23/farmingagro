@@ -6,15 +6,17 @@ import card2 from "../src/Assets/card2.png"
 import card3 from "../src/Assets/card3.png"
 import fish from "../src/Assets/fish.png"
 import dairy from "../src/Assets/dairy.png"
+import poultry from "../src/Assets/poultry.png"
 import agro from "../src/Assets/agro.png"
 import Gallery from './components/galary';
+import logo2 from "../src/Assets/Galary/logo2.jpg"
 
 
 function App() {
   return (<div className=''>
       <div className='flex items-center justify-between p-3 lg:px-7 shadow-b shadow-lg z-50 sticky top-0 bg-white'>
         <div className='font-bold text-green-800 text-xl '>
-         <p>Pranav Farms</p>
+         <img src={logo2} alt="" className='w-24 h-12 rounded-2xl'/>
         </div>
         <div className='lg:flex hidden lg:gap-6 gap-3 text-gray-700 lg:text-lg text-base font-medium'>
           <p className='text-green-800'>Home</p>
@@ -22,7 +24,7 @@ function App() {
           <p>Blog</p>
         </div>
         <div>
-          <button className='p-1 px-2 bg-green-700 text-white rounded-md hover:scale-110 transition-all'>Contact Us</button>
+          <button className='p-1 px-2 bg-green-700 text-white rounded-md hover:scale-110 transition-all' onClick={() => window.open("https://wa.me/918853642438", "_blank")}>Contact Us</button>
         </div>
       </div>
      
@@ -65,6 +67,10 @@ function App() {
           </div>
         </div>
 
+        
+
+        <Gallery/>
+
 
         <div className='lg:p-10 pb-4 bg-green-100'>
         <div className='flex flex-col items-center justify-center lg:p-6 p-3'>
@@ -78,6 +84,15 @@ function App() {
            <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-20">
         <button className='p-2 w-3/4 bg-white bg-opacity-70 text-black rounded font-semibold hover:bg-opacity-90'>
           Fish Farming
+        </button>
+        </div>
+          </div>
+          <div className=' relative'>
+           <img src={poultry} alt="" className='w-full h-full'/> 
+           <div className="absolute top-0 left-0 w-full h-full bg-gray-400 bg-opacity-50" />
+           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-20">
+        <button className='p-2 w-3/4 bg-white bg-opacity-70 text-black rounded font-semibold hover:bg-opacity-90'>
+          Poultry Farming
         </button>
         </div>
           </div>
@@ -102,8 +117,6 @@ function App() {
         </div>
         </div>
 
-
-        <Gallery/>
 
 
         <div className='lg:p-10 p-5'>
@@ -147,7 +160,7 @@ function App() {
 
         <div className='p-6 bg-green-300 grid lg:grid-cols-4 grid-cols-2 gap-4'>
           <div>
-          <p className='text-xl text-green-800 font-bold py-1'>Pranav Farms</p>
+          <img src={logo2} alt="" className='w-24 h-12 rounded-2xl'/>
           <p>Agro smart for agricultures, uncompasses all activities related to the cultivation of crops.</p>
           </div>
           <div>
@@ -158,7 +171,7 @@ function App() {
           </div>
           <div>
             <p className='text-base font-bold py-1'>Contact</p>
-            <p>Address: Gram Golahnamau, Block Sujanganj, District Jaunpur</p>
+            <p><span className='font-semibold'>Address:</span> Gram Golahnamau, Block Sujanganj, District Jaunpur</p>
             <p><span className='font-semibold'>Phone:</span> +91 8853642438</p>
           </div>
           <div>
@@ -168,6 +181,8 @@ function App() {
             <p>YouTube</p>
           </div>
         </div>
+
+        <div className='flex text-sm items-center justify-center p-1 pb-3 bg-green-300'>All Rights Reserved by Pranav</div>
 
       </div>
   );
