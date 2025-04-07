@@ -131,7 +131,7 @@ function App() {
             <div className=' border shadow-lg flex flex-col items-center justify-center'>
               <img src={card2} alt="" className=''/>
               <div className='p-3'>
-                <p className='text-xl font-semibold'>From Farm to Table, Explore the Journey of Agro Produce</p>
+                <p className='text-xl font-semibold'>Empowering Farmers Technology's Role in Modern Agriculture</p>
               <p className='text-sm'>
               Agriculture is the backbone of human civilization, providing food, fiber, and raw materials. It sustains livelihoods, supports economies, and ensures food security. Modern agriculture combines traditional practices with technology to improve productivity and sustainability, playing a vital role in combating hunger, preserving the environment, and fostering rural development worldwide.
               </p>
@@ -141,7 +141,7 @@ function App() {
             <div className=' border shadow-lg flex flex-col items-center justify-center'>
               <img src={card3} alt="" className=''/>
               <div className='p-3'>
-                <p className='text-xl font-semibold'>From Farm to Table, Explore the Journey of Agro Produce</p>
+                <p className='text-xl font-semibold'>Exploring Organic Farming, Healthier Alternatives for a Better Future</p>
               <p className='text-sm'>
               Agriculture is the backbone of human civilization, providing food, fiber, and raw materials. It sustains livelihoods, supports economies, and ensures food security. Modern agriculture combines traditional practices with technology to improve productivity and sustainability, playing a vital role in combating hunger, preserving the environment, and fostering rural development worldwide.
               </p>

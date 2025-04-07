@@ -97,7 +97,7 @@ export default function Gallery() {
   const [selectedItem, setSelectedItem] = useState(null);
 
   return (
-    <div className="gallery-container bg-green-100">
+    <div className="gallery-container lg:px-14 p-5 bg-green-100">
       <h2 className="text-2xl font-bold pb-8">Gallery</h2>
       <div className="gallery-grid">
         {galleryItems.map((item, index) => (
