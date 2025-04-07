@@ -67,10 +67,6 @@ function App() {
           </div>
         </div>
 
-        
-
-        <Gallery/>
-
 
         <div className='lg:p-10 pb-4 bg-green-100'>
         <div className='flex flex-col items-center justify-center lg:p-6 p-3'>
@@ -154,6 +150,8 @@ function App() {
             </div>
           </div>
         </div>
+
+        <Gallery/>
 
        
 
