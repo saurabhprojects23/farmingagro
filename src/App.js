@@ -7,13 +7,14 @@ import card3 from "../src/Assets/card3.png"
 import fish from "../src/Assets/fish.png"
 import dairy from "../src/Assets/dairy.png"
 import agro from "../src/Assets/agro.png"
+import Gallery from './components/galary';
 
 
 function App() {
   return (<div className=''>
       <div className='flex items-center justify-between p-3 lg:px-7 shadow-b shadow-lg z-50 sticky top-0 bg-white'>
         <div className='font-bold text-green-800 text-xl '>
-          LOGO
+         <p>Pranav Farms</p>
         </div>
         <div className='lg:flex hidden lg:gap-6 gap-3 text-gray-700 lg:text-lg text-base font-medium'>
           <p className='text-green-800'>Home</p>
@@ -101,6 +102,10 @@ function App() {
         </div>
         </div>
 
+
+        <Gallery/>
+
+
         <div className='lg:p-10 p-5'>
           <p className='text-2xl font-bold pb-4 flex items-center justify-center'>Latest Blog</p>
           <div className='flex lg:flex-row flex-col justify-around lg:gap-6 gap-3'>
@@ -137,10 +142,12 @@ function App() {
           </div>
         </div>
 
+       
+
 
         <div className='p-6 bg-green-300 grid lg:grid-cols-4 grid-cols-2 gap-4'>
           <div>
-          <p className='text-lg text-green-800 font-bold py-1'>LOGO</p>
+          <p className='text-xl text-green-800 font-bold py-1'>Pranav Farms</p>
           <p>Agro smart for agricultures, uncompasses all activities related to the cultivation of crops.</p>
           </div>
           <div>
@@ -151,8 +158,8 @@ function App() {
           </div>
           <div>
             <p className='text-base font-bold py-1'>Contact</p>
-            <p>Address: India</p>
-            <p>Phone: +91 9999988888</p>
+            <p>Address: Gram Golahnamau, Block Sujanganj, District Jaunpur</p>
+            <p><span className='font-semibold'>Phone:</span> +91 8853642438</p>
           </div>
           <div>
             <p className='text-base font-bold py-1'>Follow Us</p>
